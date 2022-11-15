@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+}
+.heading1,.heading2, h3{
+    color:rgb(74,177,154);
+}
+.heading1{
+    font-family:'Sacramento';
+    font-size:45px;
+    font-weight: bold;
+}
+.topContainer{
+    text-align: Center;
+    background-color: rgb(224,235,232);
+    position:relative;
+}
+.top-cloud{
+    position:absolute;
+    top:10%;
+    left:70%;
+}
+.heading{
+    padding-top:120px;
+}
+.bottom-cloud{
+    position:absolute;
+    top:30%;
+    left:15%;
+}
+.mountain{
+    padding-top:100px;
+}
+.unorder{
+    list-style-type: none;
+}
+.image1{
+    float:left;
+    
+}
+.image2{
+    float:right;
+    width:150px;
+}
+.middleContainer{
+    text-align: Center;
+    padding-bottom:30px;
+}
+.profile{
+    padding-top:50px;
+}
+.middleContainer h2{
+    color:rgb(74,177,154);
+    
+}
+.profiledesc{
+    width:30%;
+    text-align:center;
+    margin:0 auto 0 auto;
+   line-height:24px;
+   padding-bottom: 30px;
+}
+hr{
+   
+    padding-top:20px;
+    border-style:none;
+    border-top-style:dotted;
+    border-width: 5px;
+    border-color: grey;
+    width:5%;
+}
+.skillrow1{
+    padding:20px;
+    width:50%;
+    text-align:center;
+    margin:0 auto 0 auto;
+    display:grid;
+    grid-template-columns: 200px 1fr;
+}
+.skillh2{
+    padding:20px;
+}
+.skilldesc{
+    line-height: 24px;
+    text-align: justify;
+}
+.skillrow2{
+    width:50%;
+    text-align:center;
+    margin:0 auto 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 200px;
+}
+.bottomContainer{
+    padding-top: 30px;
+    text-align:center;
+}
+.bottomContainer h2{
+    color:rgb(74,177,154);
+}
+button{
+    margin-top:10px;
+    background-color:rgb(49, 149, 127); 
+    color:white;
+    padding:12px;
+    border-radius: 5px;
+    border:none;
+}
+
+.footer{
+    height:150px;
+    background-color:rgb(49, 149, 127); 
+    margin-top:50px;
+    text-align:center;
+}
+.links{
+    padding-top:20px;
+    text-align:center;
+}
+.links a{
+    padding-right:15px;
+}
+.footer p{
+    padding-top:30px;
+    color:white;
+}
